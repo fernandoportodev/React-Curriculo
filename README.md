@@ -21,7 +21,7 @@ No diretório do projeto, você pode rodar com o seguinte comando:
 Assim que estiver rodando, a aplicação estará na porta localhost:3000 para acesso.\
 Abra [http://localhost:3000](http://localhost:3000) para visualizar em seu navegador.
 
-A página atualizará automaticamente conforme suas mudanças.\
+A página atualizará automaticamente conforme suas mudanças.
 
 ### `npm run build`
 
