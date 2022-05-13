@@ -6,7 +6,7 @@ Esse projeto está hospedado no Netlify https://cms-fernandoporto.netlify.app/
 
 Este projeto visa um sistema de currícolos, com alguns métodos HTTP, como Create (Criar os currículos), Get (Visualizar os currículos) e Delete (Apagar os currículos) com algumas funções do react. Utilizei o Router, pacote instalado através do npm (react-router-dom) que faz a navegação entre componentes internos.
 
-# Implementações futuras
+## Implementações futuras
 
  - Função de importar e exportar currículos em formato JSON;
  - Design moderno (transições, pequenas interações);
