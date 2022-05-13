@@ -4,7 +4,7 @@ import { Formulario } from "./components/Formulario/Formulario";
 import { Inicio } from "./components/Inicio/Inicio";
 import { ListaCurriculo } from "./components/Lista/ListaCurriculo";
 import { Navbar } from "./components/Navbar/Navbar";
-import { VisualizadorCurriculo } from "./components/Visualizador/VisualizadorCurriculo";
+
 
 export default function AppRouter(){
     return(
@@ -13,8 +13,7 @@ export default function AppRouter(){
             <Routes>
                 <Route path='/adicionarcurriculo' element={<Formulario />} />
                 <Route path='/listacurriculo' element={<ListaCurriculo />} />
-                <Route path='/inicio' element={<Inicio />} />
-                <Route path="/curriculo" element={<VisualizadorCurriculo />} />
+                <Route path='/' element={<Inicio />} />
             </Routes>
         </Router>
     )

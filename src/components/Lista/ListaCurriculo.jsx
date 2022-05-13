@@ -1,11 +1,12 @@
 import React from "react";
 import { CurriculoItem } from "../Curriculo/CurriculoItem";
+import "./ListaCurriculo.css"
 
 export const ListaCurriculo = () => {
     return (
         <div>
 
-        <h1 className="my-5 text-center mt-3">Lista de Currículos</h1>
+        <h1 className="my-5 text-center">Lista de Currículos</h1>
 
         <div className="card bg-secondary p-3">
         <table className="table table-hover">
